@@ -35,7 +35,7 @@ npm run start-auth
 
 ### Gerando certificados SSL auto-assinados
 
-Para desenvolvimento local com HTTPS, execute o seguinte comando:
+Para desenvolvimento local com HTTPS, dentro da basta **back**, execute o seguinte comando:
 
 ```bash
 openssl req -x509 -sha256 -nodes -days 365 -newkey rsa:2048 -keyout server.key -out server.crt
